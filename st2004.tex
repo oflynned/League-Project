@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage{multirow}
+\usepackage{lscape}
+
+\begin{document}
+\begin{titlepage}
+
+% definition of custom command for horizontal lines
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+% HEADING
+\textsc{\LARGE University of Dublin,\\Trinity College}\\[1.0cm]
+\includegraphics[width=0.2\textwidth]{logo.png}
+
+\HRule \\[0.4cm]
+\textsc{\Large League Table Investigation}\\[0.25cm]
+\textsc{\large ST2004 \& ST2353 Assessment 2}\\[0.1cm]
+\HRule \\[0.4cm]
+ 
+% AUTHORS
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \large
+\emph{Authors:}
+\\Alexandru \textsc{Sulea} 12315152
+\\Edmond \textsc{O'Flynn} 12304742
+\\Jonathan \textsc{Lester} 14310385
+\\Ronan \textsc{Campbell} 14324880
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} 
+\large
+\emph{Lecturer:} \\
+Dr. Brett \textsc{Houlding}
+\vspace{1.9cm}
+\end{flushleft}
+\end{minipage}\\[2cm]
+
+% DATE
+{\large \today}\\[1cm] 
+
+% LOGO
+\includegraphics[width=0.3\textwidth]{ball.jpeg}
+\clearpage
+\end{titlepage}
+
+\tableofcontents
+\addcontentsline{toc}{section}{References}
+\thispagestyle{empty}
+\cleardoublepage
+\setcounter{page}{1}
+\pagebreak
+
+\newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
+\section{Q1i: Monte Carlo Simulation of Equal Skill}
+\section{Q1ii: Monte Carlo Simulation of Unequal Skill}
+\section{Q1iii: Various Skills within a Group of Ten}
+\section{Q2: Kelly Betting}
+
+\subsection{Conclusion}
+\begin{thebibliography}{3}
+\bibitem{kilbyj}
+  Jim Kilby, Jim Fox, Anthony F. Lucas,
+  \emph{Casino Operation Management, 2nd Edition},
+  Wiley (2006).
+\end{thebibliography}
+\end{document}
