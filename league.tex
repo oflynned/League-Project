@@ -61,6 +61,24 @@ Dr. Brett \textsc{Houlding}
 \newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
 \section{Q1i: Monte Carlo Simulation of Equal Skill}
 \section{Q1ii: Monte Carlo Simulation of Unequal Skill}
+\subsection{Validation}
+\subsubsection{Simulation}
+The simulation was modified such that there is now an array of skills where the Monte Carlo simulation is now of unequal skill between teams. The probabilities are randomly generated via the \emph{RAND()} function, and this skill coefficient remains constant throughout the season as a measure between 0 and 1.
+
+The frequency of points gained by each team depends highly on the given abilities of the teams. Teams with equal abilities tend to gain equal quantities of points within the stochastic process. Teams of differing abilities illustrates a trend of higher or lower cumulative probabilities of point-gaining as shown in the plots.
+
+A simulation of 1000 repetitions was performed on the system, resulting in the following frequencies:
+
+It is important to note that teams \emph{A} and \emph{B}, with their given higher abilities, demonstrate a much higher frequency of wins throughout the league, which both validates and pertains to the given expectation of the stochastic system.
+
+% graphs and plots here; cumulative, some reps and frequencies by team?
+
+\subsection{Probability Distributions}
+Within the scope of when all teams except A having equal skills is true, the number of wins within the league is demonstrated accordingly on the plots. In the simulation of the league, the number of wins were sampled using the following characteristic equation $A_{skill}$ vs $n \cdot B_{skill}$, where $n$ is sampled at $0.5$, $1$, and $2$. Empirically, these demonstrate ranges of wins using the given skill coefficients in order to simulate "half as skilled", "equally skilled", and "twice as skilled".
+
+%more graphs from simulation; skill & cumulative
+
+From the graphs in figures x and x, the number of wins is a representation of the effect of skill within the league, thus reinforcing the results obtained.
 \section{Q1iii: Various Skills within a Group of Ten}
 \section{Q2: Kelly Betting}
 
