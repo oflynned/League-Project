@@ -205,6 +205,61 @@ As we can see from the formula, when the probability of a loss is greater than t
 
 \subsection{Simulation}
 A simulation was carried out in Excel to investigate the supposed benefits of the Kelly Criterion. Using the \emph{RAND()} function, a random number was generated and this decided the outcome of the bet. Firstly Kelly betting was compared to flat stake betting and then fractional Kelly betting was compared to find why many supporters advise using a fraction of the percentage that the Kelly Criterion would tell us to wager. A running bankroll of each strategy was kept and the simulation was run 1000 times.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cc}
+P (win)           & 0.52   \\
+P (loss)          & 0.48   \\
+Starting Bankroll & \$1000 \\
+Kelly Bet         & 4\%    \\
+Flat Bet          & \$10   \\
+Odds (Decimal)    & 2     
+\end{tabular}
+\caption{Kelly v Flat Betting Simulation}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+Trial & Rand() & Outcome & Flat Bankroll & Kelly Bankroll \\
+1     & 0.831  & Loss    & \$990.00      & \$960.00       \\
+2     & 0.026  & Win     & \$1000.00     & \$998.40       \\
+3     & 0.807  & Loss    & \$990.00      & \$958.46       \\
+4     & 0.388  & Win     & \$1000.00     & \$996.00       \\
+5     & 0.409  & Win     & \$1010.00     & \$1036.67      \\
+6     & 0.221  & Win     & \$1020.00     & \$1078.14      \\
+1000  & 0.420  & Win     & \$1600.00     & \$4956.21     
+\end{tabular}
+\caption{Expanded Simulation of Kelly vs Flat Betting}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cc}
+P (win)           & 0.52   \\
+P (loss)          & 0.48   \\
+Starting Bankroll & \$1000 \\
+Advised Kelly Bet         & 4\%    \\
+Odds (Decimal)    & 2     
+\end{tabular}
+\caption{Fractional Kelly Betting Simulation}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccccccc}
+Trial & 0.25      & 0.50      & 0.75      & 1.00        & 1.25        & 1.50        & 1.75        & 2.00        \\
+1     & \$1000.00 & \$1000.00 & \$1000.00 & \$1000.00   & \$1000.00   & \$1000.00   & \$1000.00   & \$1000.00   \\
+2     & \$990.00  & \$980.00  & \$970.00  & \$960.00    & \$950.00    & \$940.00    & \$930.00    & \$920.00    \\
+3     & \$999.90  & \$999.60  & \$999.10  & \$998.40    & \$997.50    & \$996.40    & \$995.10    & \$993.60    \\
+4     & \$989.90  & \$979.61  & \$969.13  & \$958.40    & \$947.63    & \$936.62    & \$925.44    & \$914.11    \\
+5     & \$980.00  & \$960.02  & \$940.05  & \$920.13    & \$900.24    & \$880.42    & \$860.66    & \$940.98    \\
+1000  & \$2316.55 & \$4856.89 & \$9216.99 & \$15,832.43 & \$24,616.09 & \$34,638.90 & \$44,107.93 & \$50,814.12
+\end{tabular}
+\caption{Varied Kelly Criterion with End Outcome}
+\end{table}
+
 \subsection{Discussion}
 From the simulation, we can see that in the long run, utilizing the Kelly Criterion maximizes our potential bankroll. Relative to betting with a flat stake, Kelly betting is far more profitable but this was only apparent after a large number of bets. In fact, in the short term, flat betting was a far more stable strategy albeit slower to profit. From the graph produced, Kelly betting is clearly highly volatile however as the number of trials increases, the returns from Kelly betting are astronomical.
 

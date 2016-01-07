@@ -8,5 +8,5 @@
 \contentsline {section}{\numberline {4}Q2: Kelly Betting}{6}
 \contentsline {subsection}{\numberline {4.1}Kelly Criterion}{6}
 \contentsline {subsection}{\numberline {4.2}Simulation}{6}
-\contentsline {subsection}{\numberline {4.3}Discussion}{6}
+\contentsline {subsection}{\numberline {4.3}Discussion}{7}
 \contentsline {subsection}{\numberline {4.4}Conclusion}{8}
