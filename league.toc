@@ -1,14 +1,12 @@
 \select@language {english}
 \contentsline {section}{References}{1}
 \contentsline {section}{\numberline {1}Q1i: Monte Carlo Simulation of Equal Skill}{1}
-\contentsline {section}{\numberline {2}Q1ii: Monte Carlo Simulation of Unequal Skill}{1}
-\contentsline {subsection}{\numberline {2.1}Validation}{1}
-\contentsline {subsubsection}{\numberline {2.1.1}Simulation}{1}
-\contentsline {subsection}{\numberline {2.2}Probability Distributions}{1}
-\contentsline {section}{\numberline {3}Q1iii: Various Skills within a Group of Ten}{1}
-\contentsline {section}{\numberline {4}Q2: Kelly Betting}{3}
-\contentsline {subsection}{\numberline {4.1}Kelly Criterion}{3}
-\contentsline {subsection}{\numberline {4.2}Simulation}{4}
-\contentsline {subsection}{\numberline {4.3}Discussion}{4}
-\contentsline {subsection}{\numberline {4.4}Conclusion}{4}
-\contentsline {subsection}{\numberline {4.5}Conclusion}{5}
+\contentsline {section}{\numberline {2}Q1ii: Monte Carlo Simulation of Unequal Skill}{2}
+\contentsline {subsection}{\numberline {2.1}Validation of Simulation}{2}
+\contentsline {subsection}{\numberline {2.2}Probability Distributions}{2}
+\contentsline {section}{\numberline {3}Q1iii: Various Skills within a Group of Ten}{3}
+\contentsline {section}{\numberline {4}Q2: Kelly Betting}{6}
+\contentsline {subsection}{\numberline {4.1}Kelly Criterion}{6}
+\contentsline {subsection}{\numberline {4.2}Simulation}{6}
+\contentsline {subsection}{\numberline {4.3}Discussion}{6}
+\contentsline {subsection}{\numberline {4.4}Conclusion}{8}
