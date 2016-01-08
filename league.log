@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  7 JAN 2016 14:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  8 JAN 2016 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -374,21 +374,21 @@ File: skill_a_half_skill_b.png Graphic file (type png)
 
 <use skill_a_half_skill_b.png>
 Package pdftex.def Info: skill_a_half_skill_b.png used on input line 115.
-(pdftex.def)             Requested size: 135.15059pt x 98.9745pt.
+(pdftex.def)             Requested size: 162.18236pt x 118.77158pt.
 
 <skill_a_equals_skill_b.png, id=28, 331.2375pt x 217.81375pt>
 File: skill_a_equals_skill_b.png Graphic file (type png)
 
 <use skill_a_equals_skill_b.png>
 Package pdftex.def Info: skill_a_equals_skill_b.png used on input line 116.
-(pdftex.def)             Requested size: 135.15059pt x 88.87215pt.
+(pdftex.def)             Requested size: 162.18236pt x 106.64658pt.
 
 <skill_a_2x_skill_b.png, id=29, 332.24126pt x 220.825pt>
 File: skill_a_2x_skill_b.png Graphic file (type png)
 
 <use skill_a_2x_skill_b.png>
 Package pdftex.def Info: skill_a_2x_skill_b.png used on input line 117.
-(pdftex.def)             Requested size: 135.15059pt x 89.82785pt.
+(pdftex.def)             Requested size: 162.18236pt x 107.7941pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -406,42 +406,56 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--187
+Underfull \hbox (badness 10000) in paragraph at lines 169--185
 
  []
 
 [3 <./twice_skill_a.png> <./skill_a_half_skill_b.png (PNG copy)> <./skill_a_equ
-als_skill_b.png (PNG copy)> <./skill_a_2x_skill_b.png (PNG copy)>] [4] [5]
-[6
+als_skill_b.png (PNG copy)> <./skill_a_2x_skill_b.png (PNG copy)>] [4]
+<skill_score_1.jpg, id=38, 482.80376pt x 288.07625pt>
+File: skill_score_1.jpg Graphic file (type jpg)
+ <use skill_score_1.jpg>
+Package pdftex.def Info: skill_score_1.jpg used on input line 188.
+(pdftex.def)             Requested size: 270.3012pt x 161.28642pt.
 
-] <kelly_flat.PNG, id=45, 419.31656pt x 256.70906pt>
+<skill_score_2.jpg, id=39, 361.35pt x 216.81pt>
+File: skill_score_2.jpg Graphic file (type jpg)
+ <use skill_score_2.jpg>
+Package pdftex.def Info: skill_score_2.jpg used on input line 194.
+(pdftex.def)             Requested size: 270.3012pt x 162.18033pt.
+
+<skill_score_3.jpg, id=40, 359.84438pt x 213.79875pt>
+File: skill_score_3.jpg Graphic file (type jpg)
+ <use skill_score_3.jpg>
+Package pdftex.def Info: skill_score_3.jpg used on input line 200.
+(pdftex.def)             Requested size: 270.3012pt x 160.60963pt.
+
+[5 <./skill_score_1.jpg> <./skill_score_2.jpg> <./skill_score_3.jpg>] [6]
+[7
+
+] <kelly_flat.PNG, id=51, 419.31656pt x 256.70906pt>
 File: kelly_flat.PNG Graphic file (type png)
  <use kelly_flat.PNG>
-Package pdftex.def Info: kelly_flat.PNG used on input line 268.
+Package pdftex.def Info: kelly_flat.PNG used on input line 286.
 (pdftex.def)             Requested size: 270.3012pt x 165.48009pt.
 
-[7 <./kelly_flat.PNG>] <frac_kelly.PNG, id=50, 480.29437pt x 282.30469pt>
+[8 <./kelly_flat.PNG>] <frac_kelly.PNG, id=56, 480.29437pt x 282.30469pt>
 File: frac_kelly.PNG Graphic file (type png)
 
 <use frac_kelly.PNG>
-Package pdftex.def Info: frac_kelly.PNG used on input line 276.
+Package pdftex.def Info: frac_kelly.PNG used on input line 294.
 (pdftex.def)             Requested size: 270.3012pt x 158.87782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--285
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
-[8 <./frac_kelly.PNG>] (./league.aux) ) 
+[9 <./frac_kelly.PNG>] (./league.aux) ) 
 Here is how much of TeX's memory you used:
- 3637 strings out of 494985
- 50548 string characters out of 6180356
- 146089 words of memory out of 5000000
- 6775 multiletter control sequences out of 15000+600000
+ 3653 strings out of 494985
+ 50864 string characters out of 6180356
+ 145089 words of memory out of 5000000
+ 6787 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,15n,23p,1173b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -453,10 +467,10 @@ s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on league.pdf (10 pages, 1034742 bytes).
+Output written on league.pdf (11 pages, 1219800 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
