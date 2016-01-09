@@ -8,6 +8,7 @@
 \usepackage{lscape}
 \usepackage{multirow}
 \usepackage{float}
+\usepackage{multirow}
 
 \begin{document}
 \begin{titlepage}
@@ -62,6 +63,69 @@ Dr. Brett \textsc{Houlding}
 
 \newgeometry{top=1cm,left=1cm,bottom=2cm,right=1cm}
 \section{Q1i: Monte Carlo Simulation of Equal Skill}
+
+In an event where the two teams are equally matched the statistics show that one would win 1.5 of the 3 matches due to 1/2 probability. However that is not a realistic number, therefore the graphs show that there is equal chance of winning 1 match as there is of winning 2 matches. \\
+When bias is introduced the graphs change accordingly, tilting more towards 0 or 3 depending on where the bias is placed.\\
+
+\begin{table}[H]
+\centering
+\caption{Equal Chances}
+\label{my-label}
+\begin{tabular}{ll|l|l|l|l|}
+\cline{3-6}
+                                                &      & \multicolumn{4}{l|}{Away Team}    \\ \cline{2-6} 
+\multicolumn{1}{l|}{}                           & Team & 1      & 2      & 3      & 4      \\ \hline
+\multicolumn{1}{|l|}{\multirow{4}{*}{HomeTeam}} & 1    & N/A    & 0.5/0.5 & 0.5/0.5 & 0.5/0.5 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 2    & 0.5/05 & N/A    & 0.5/0.5 & 0.5/0.5 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 3    & 0.5/0.5 & 0.5/0.5 & N/A    & 0.5/0.5 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 4    & 0.5/0.5 & 0.5/0.5 & 0.5/0.5 & N/A    \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{Unequal Chances}
+\label{my-label}
+\begin{tabular}{ll|l|l|l|l|}
+\cline{3-6}
+                                                &      & \multicolumn{4}{l|}{Away Team}    \\ \cline{2-6} 
+\multicolumn{1}{l|}{}                           & Team & 1      & 2      & 3      & 4      \\ \hline
+\multicolumn{1}{|l|}{\multirow{4}{*}{HomeTeam}} & 1    & N/A    & 0.66/0.33 & 0.66/0.33 & 0.66/0.33 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 2    & 0.66/0.33 & N/A    & 0.66/0.33 & 0.66/0.33 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 3    & 0.66/0.33 & 0.66/0.33 & N/A    & 0.66/0.33 \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                          & 4    & 0.66/0.33 & 0.66/0.33 & 0.66/0.33 & N/A    \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{win_u.png}
+\caption{Probability of Winning with Unbiased ods}
+\end{figure}
+
+\begin{align*}
+\includegraphics[height=1.8in]{win_v.png}
+\includegraphics[height=1.8in]{dgf.png}
+\end{align*}\\
+As predicted and observed in the above graphs, when there is an advantage of winning at home the graphs tend to be skewed towards the higher end of the values. Similarly when there is a dissadvantage the graphs are skewed towards the lower end of the values. The two graphs therefore creating almost mirror images of each other.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{win_b.png}
+\caption{Probability of Winning with Biased ods}
+\end{figure}
+By usign the results of two binomial distributions the above graph was created. It depicts that by using a biased home and away point system, the most likely probability in a tournament is to win half of the matches. Therefore by following a home and away biased point system this negates the bias introduced by home advantage and away dissadvantage in games and reintroduces the notion of fair play.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{con3.png}
+\caption{Probability of Winning with Biased ods}
+\end{figure}
+The data in the above graph is based on a win scenario of team B, given that team A won at least one
+match. Given that team A and
+team B can only win up to 4 matches there is  a finite number of values that either variable can be. When A wins three matches, it
+means that team B can only win a maximum of one match against the other two teams. When team A wins no matches or one match, there is a chance that one of those matches was against B, thus the probability of B winning
+two matches decreases significantly.\\
 \clearpage
 \section{Q1ii: Monte Carlo Simulation of Unequal Skill}
 \subsection{Validation of Simulation}

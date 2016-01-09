@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  8 JAN 2016 12:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.24)  9 JAN 2016 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,23 +187,26 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box28
 \@float@everytoks=\toks27
 \@floatcapt=\box29
-) (./league.aux)
+) (./league.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `league.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -297,26 +300,26 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=1, 787.94376pt x 963.6pt>
+<logo.png, id=1, 169.63374pt x 207.77625pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 21.
-(pdftex.def)             Requested size: 83.64944pt x 102.29108pt.
+Package pdftex.def Info: logo.png used on input line 22.
+(pdftex.def)             Requested size: 83.64944pt x 102.45801pt.
 
 <ball.jpeg, id=2, 2055.68pt x 1989.4325pt>
 File: ball.jpeg Graphic file (type jpg)
  <use ball.jpeg>
-Package pdftex.def Info: ball.jpeg used on input line 52.
+Package pdftex.def Info: ball.jpeg used on input line 53.
 (pdftex.def)             Requested size: 125.47737pt x 121.42502pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png (PNG copy)> <./
-ball.jpeg>]
-(./league.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png> <./ball.jpeg>]
+ (./league.toc)
 \tf@toc=\write3
 \openout3 = `league.toc'.
 
- [1
+
+[1
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -351,126 +354,179 @@ ball.jpeg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+<win_u.png, id=16, 456.20438pt x 255.20343pt>
+File: win_u.png Graphic file (type png)
+ <use win_u.png>
+Package pdftex.def Info: win_u.png used on input line 103.
+(pdftex.def)             Requested size: 270.3012pt x 151.21124pt.
+
+<win_v.png, id=17, 456.20438pt x 255.20343pt>
+File: win_v.png Graphic file (type png)
+ <use win_v.png>
+Package pdftex.def Info: win_v.png used on input line 110.
+(pdftex.def)             Requested size: 232.55673pt x 130.08621pt.
+
+<dgf.png, id=18, 456.20438pt x 255.20343pt>
+File: dgf.png Graphic file (type png)
+ <use dgf.png>
+Package pdftex.def Info: dgf.png used on input line 110.
+(pdftex.def)             Requested size: 232.55673pt x 130.08621pt.
+File: win_v.png Graphic file (type png)
+ <use win_v.png>
+Package pdftex.def Info: win_v.png used on input line 110.
+(pdftex.def)             Requested size: 232.55673pt x 130.08621pt.
+File: dgf.png Graphic file (type png)
+
+<use dgf.png>
+Package pdftex.def Info: dgf.png used on input line 110.
+(pdftex.def)             Requested size: 232.55673pt x 130.08621pt.
+ <win_b.png, id=19, 456.20438pt x 255.20343pt>
+File: win_b.png Graphic file (type png)
+ <use win_b.png>
+Package pdftex.def Info: win_b.png used on input line 114.
+(pdftex.def)             Requested size: 270.3012pt x 151.21124pt.
+
+[1
 
 
-] <q1ii_graphs.png, id=18, 1026.83624pt x 413.545pt>
+ <./win_u.png (PNG copy)> <./win_v.png (PNG copy)> <./dgf.png (PNG copy)>]
+<con3.png, id=23, 456.20438pt x 255.20343pt>
+File: con3.png Graphic file (type png)
+ <use con3.png>
+Package pdftex.def Info: con3.png used on input line 121.
+(pdftex.def)             Requested size: 270.3012pt x 151.21124pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+
+ []
+
+[2 <./win_b.png (PNG copy)> <./con3.png (PNG copy)>]
+<q1ii_graphs.png, id=27, 1026.83624pt x 413.545pt>
 File: q1ii_graphs.png Graphic file (type png)
-
-<use q1ii_graphs.png>
-Package pdftex.def Info: q1ii_graphs.png used on input line 98.
+ <use q1ii_graphs.png>
+Package pdftex.def Info: q1ii_graphs.png used on input line 162.
 (pdftex.def)             Requested size: 324.36473pt x 130.63335pt.
- <twice_skill_a.png, id=19, 594.22pt x 410.53375pt>
-File: twice_skill_a.png Graphic file (type png)
 
-<use twice_skill_a.png>
-Package pdftex.def Info: twice_skill_a.png used on input line 107.
+<twice_skill_a.png, id=28, 594.22pt x 410.53375pt>
+File: twice_skill_a.png Graphic file (type png)
+ <use twice_skill_a.png>
+Package pdftex.def Info: twice_skill_a.png used on input line 171.
 (pdftex.def)             Requested size: 216.23764pt x 149.39568pt.
- [2
+
+[3
 
  <./q1ii_graphs.png (PNG copy)>]
-<skill_a_half_skill_b.png, id=27, 326.21875pt x 238.8925pt>
+<skill_a_half_skill_b.png, id=36, 326.21875pt x 238.8925pt>
 File: skill_a_half_skill_b.png Graphic file (type png)
 
 <use skill_a_half_skill_b.png>
-Package pdftex.def Info: skill_a_half_skill_b.png used on input line 115.
+Package pdftex.def Info: skill_a_half_skill_b.png used on input line 179.
 (pdftex.def)             Requested size: 162.18236pt x 118.77158pt.
 
-<skill_a_equals_skill_b.png, id=28, 331.2375pt x 217.81375pt>
+<skill_a_equals_skill_b.png, id=37, 331.2375pt x 217.81375pt>
 File: skill_a_equals_skill_b.png Graphic file (type png)
 
 <use skill_a_equals_skill_b.png>
-Package pdftex.def Info: skill_a_equals_skill_b.png used on input line 116.
+Package pdftex.def Info: skill_a_equals_skill_b.png used on input line 180.
 (pdftex.def)             Requested size: 162.18236pt x 106.64658pt.
 
-<skill_a_2x_skill_b.png, id=29, 332.24126pt x 220.825pt>
+<skill_a_2x_skill_b.png, id=38, 332.24126pt x 220.825pt>
 File: skill_a_2x_skill_b.png Graphic file (type png)
 
 <use skill_a_2x_skill_b.png>
-Package pdftex.def Info: skill_a_2x_skill_b.png used on input line 117.
+Package pdftex.def Info: skill_a_2x_skill_b.png used on input line 181.
 (pdftex.def)             Requested size: 162.18236pt x 107.7941pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 135.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 199.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 135.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 199.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--185
+Underfull \hbox (badness 10000) in paragraph at lines 233--249
 
  []
 
-[3 <./twice_skill_a.png> <./skill_a_half_skill_b.png (PNG copy)> <./skill_a_equ
-als_skill_b.png (PNG copy)> <./skill_a_2x_skill_b.png (PNG copy)>] [4]
-<skill_score_1.jpg, id=38, 482.80376pt x 288.07625pt>
+[4 <./twice_skill_a.png> <./skill_a_half_skill_b.png (PNG copy)> <./skill_a_equ
+als_skill_b.png (PNG copy)> <./skill_a_2x_skill_b.png (PNG copy)>] [5]
+<skill_score_1.jpg, id=48, 482.80376pt x 288.07625pt>
 File: skill_score_1.jpg Graphic file (type jpg)
  <use skill_score_1.jpg>
-Package pdftex.def Info: skill_score_1.jpg used on input line 188.
+Package pdftex.def Info: skill_score_1.jpg used on input line 252.
 (pdftex.def)             Requested size: 270.3012pt x 161.28642pt.
 
-<skill_score_2.jpg, id=39, 361.35pt x 216.81pt>
+<skill_score_2.jpg, id=49, 361.35pt x 216.81pt>
 File: skill_score_2.jpg Graphic file (type jpg)
  <use skill_score_2.jpg>
-Package pdftex.def Info: skill_score_2.jpg used on input line 194.
+Package pdftex.def Info: skill_score_2.jpg used on input line 258.
 (pdftex.def)             Requested size: 270.3012pt x 162.18033pt.
 
-<skill_score_3.jpg, id=40, 359.84438pt x 213.79875pt>
+<skill_score_3.jpg, id=50, 359.84438pt x 213.79875pt>
 File: skill_score_3.jpg Graphic file (type jpg)
  <use skill_score_3.jpg>
-Package pdftex.def Info: skill_score_3.jpg used on input line 200.
+Package pdftex.def Info: skill_score_3.jpg used on input line 264.
 (pdftex.def)             Requested size: 270.3012pt x 160.60963pt.
 
-[5 <./skill_score_1.jpg> <./skill_score_2.jpg> <./skill_score_3.jpg>] [6]
-[7
+[6 <./skill_score_1.jpg> <./skill_score_2.jpg> <./skill_score_3.jpg>] [7]
+[8
 
-] <kelly_flat.PNG, id=51, 419.31656pt x 256.70906pt>
+] <kelly_flat.PNG, id=60, 419.31656pt x 256.70906pt>
 File: kelly_flat.PNG Graphic file (type png)
  <use kelly_flat.PNG>
-Package pdftex.def Info: kelly_flat.PNG used on input line 286.
+Package pdftex.def Info: kelly_flat.PNG used on input line 350.
 (pdftex.def)             Requested size: 270.3012pt x 165.48009pt.
 
-[8 <./kelly_flat.PNG>] <frac_kelly.PNG, id=56, 480.29437pt x 282.30469pt>
+[9 <./kelly_flat.PNG>] <frac_kelly.PNG, id=65, 480.29437pt x 282.30469pt>
 File: frac_kelly.PNG Graphic file (type png)
 
 <use frac_kelly.PNG>
-Package pdftex.def Info: frac_kelly.PNG used on input line 294.
+Package pdftex.def Info: frac_kelly.PNG used on input line 358.
 (pdftex.def)             Requested size: 270.3012pt x 158.87782pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--303
+Underfull \hbox (badness 10000) in paragraph at lines 364--367
 
  []
 
-[9 <./frac_kelly.PNG>] (./league.aux) ) 
+[10 <./frac_kelly.PNG>] (./league.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3653 strings out of 494985
- 50864 string characters out of 6180356
- 145089 words of memory out of 5000000
- 6787 multiletter control sequences out of 15000+600000
+ 3679 strings out of 494985
+ 51179 string characters out of 6180356
+ 145136 words of memory out of 5000000
+ 6808 multiletter control sequences out of 15000+600000
  10466 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,15n,23p,1173b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on league.pdf (11 pages, 1219800 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on league.pdf (12 pages, 734980 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
