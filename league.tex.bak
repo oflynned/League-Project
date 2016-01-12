@@ -101,25 +101,25 @@ When bias is introduced the graphs change accordingly, tilting more towards 0 or
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{win_u.png}
-\caption{Probability of Winning with Unbiased odds}
+\caption{Probability of Winning with Unbiased ods}
 \end{figure}
 
 \begin{align*}
 \includegraphics[height=1.8in]{win_v.png}
 \includegraphics[height=1.8in]{dgf.png}
 \end{align*}\\
-As predicted and observed in the above graphs, when there is an advantage of winning at home the graphs tend to be skewed towards the higher end of the values. Similarly when there is a disadvantage the graphs are skewed towards the lower end of the values. The two graphs therefore creating almost mirror images of each other.
+As predicted and observed in the above graphs, when there is an advantage of winning at home the graphs tend to be skewed towards the higher end of the values. Similarly when there is a dissadvantage the graphs are skewed towards the lower end of the values. The two graphs therefore creating almost mirror images of each other.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{win_b.png}
-\caption{Probability of Winning with Biased odds}
+\caption{Probability of Winning with Biased ods}
 \end{figure}
-By using the results of two binomial distributions the above graph was created. It depicts that by using a biased home and away point system, the most likely probability in a tournament is to win half of the matches.\cite{dekker} Therefore by following a home and away biased point system this negates the bias introduced by home advantage and away disadvantage in games and reintroduces the notion of fair play.
+By using the results of two binomial distributions the above graph was created. It depicts that by using a biased home and away point system, the most likely probability in a tournament is to win half of the matches.\cite{dekker} Therefore by following a home and away biased point system this negates the bias introduced by home advantage and away dissadvantage in games and reintroduces the notion of fair play.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{con3.png}
-\caption{Probability of Winning with Biased odds}
+\caption{Probability of Winning with Biased ods}
 \end{figure}
 The data in the above graph is based on a win scenario of team B, given that team A won at least one
 match. Given that team A and
